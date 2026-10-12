@@ -15,10 +15,10 @@ void oh_p() {
     else
         exit(0);
 }
-
 int main() {
     i = set_ctx(&ctx);
     printf("%d", i);
     oh_p();
     printf("[Error]: This line should not be printed!");
 }
+
